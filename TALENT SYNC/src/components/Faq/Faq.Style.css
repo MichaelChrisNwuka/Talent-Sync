@@ -1,0 +1,104 @@
+.Faq-Container {
+  width: 80%;
+  margin: 100px auto 100px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.Faq-Container .Col:nth-of-type(1) p:nth-of-type(1) {
+  color: var(--Blue-700, #175cd3);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+.Faq-Container .Col:nth-of-type(1) h6 {
+  color: var(--Gray-800, #1d2939);
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 60px;
+  letter-spacing: -0.96px;
+  margin-top: 30px;
+}
+
+.Faq-Container .Col:nth-of-type(1) p:nth-of-type(2) {
+  color: var(--Gray-500, #667085);
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  margin-top: 20px;
+}
+
+.Faq-Container .Col:nth-of-type(1) p:nth-of-type(2) span {
+  color: var(--Gray-500, #667085);
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  text-decoration-line: underline;
+}
+
+.Faq-Container .Col:nth-of-type(2) {
+  width: 100%;
+}
+
+.Faq-Container .Col:nth-of-type(2) .Answer {
+  border-radius: 16px;
+  border: 1px solid var(--Gray-200, #eaecf0);
+  background: var(--Gray-50, #f9fafb);
+  padding: 20px;
+}
+
+.Faq-Container .Col:nth-of-type(2) .Answer .Heading {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  /* margin-top: 40px; */
+}
+
+.Faq-Container .Col:nth-of-type(2) .Answer .Heading p {
+  color: var(--Gray-900, #101828);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+
+.Faq-Container .Col:nth-of-type(2) .Answer p {
+  color: var(--Gray-600, #475467);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.Faq-Container .Col:nth-of-type(2) .Question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom-style: solid;
+  border-width: 1px;
+  border-color: var(--Gray-200, #eaecf0);
+  padding: 30px;
+  width: 100%;
+}
+
+.Faq-Container .Col:nth-of-type(2) .Question p {
+  color: var(--Gray-900, #101828);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px;
+}

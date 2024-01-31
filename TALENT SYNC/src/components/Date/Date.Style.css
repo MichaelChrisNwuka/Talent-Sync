@@ -1,0 +1,29 @@
+.Date {
+  width: 100%;
+  background: var(--Gray-50, #f9fafb);
+}
+
+.Date .Container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  padding: 48px 0px;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+}
+
+.Date .Container .Col:nth-of-type(1) p {
+  color: var(--Gray-500, #667085);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.Date .Container .Col:nth-of-type(2){
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}

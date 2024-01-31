@@ -1,0 +1,27 @@
+.Sponsors-Container {
+  width: 90%;
+  height: 250px;
+  margin: 0 auto;
+  padding-top: 50px;
+  align-self: stretch;
+}
+
+.Sponsors-Container p {
+  color: var(--Gray-600, #475467);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px; /* 150% */
+}
+
+.Sponsors-Container .Sponsors{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    /* background-color: red; */
+    width: 90%;
+    margin: 70px auto 0;
+}

@@ -1,0 +1,142 @@
+.Hero-Container {
+  width: 90%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding-top: 50px;
+  margin: 0 auto;
+}
+
+.Hero-Container .Col:nth-of-type(1) {
+  padding-top: 35px;
+  padding-left: 35px;
+}
+
+.Hero-Container .Col:nth-of-type(1) h3 {
+  color: var(--Gray-800, #1d2939);
+  font-family: Inter;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 72px; 
+  letter-spacing: -1.28px;
+  margin-bottom: 40px;
+}
+
+.Hero-Container .Col:nth-of-type(1) p {
+  color: var(--Gray-500, #667085);
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; 
+  padding-bottom: 20px;
+}
+
+.Hero-Container .Col:nth-of-type(1) .Buttons-Container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.Hero-Container .Col:nth-of-type(1) .Buttons-Container button:nth-of-type(1) {
+  border-radius: 100px;
+  background: var(--Blue-700, #175cd3);
+  padding: 12px 28px;
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+  border-color: transparent;
+  font-family: Inter;
+  color: var(--Base-White, #fff);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+.Hero-Container .Col:nth-of-type(1) .Avatar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 30px;
+  position: relative;
+  gap: 30px;
+}
+
+.Hero-Container .Col:nth-of-type(1) .Avatar img {
+  width: 40px;
+  height: 40px;
+  gap: 30px;
+}
+
+.Hero-Container .Col:nth-of-type(1) .Avatar img:nth-of-type(2) {
+  margin-left: -12px;
+}
+
+.Hero-Container .Col:nth-of-type(1) .Avatar img:nth-of-type(3) {
+  margin-left: -12px;
+}
+
+.Hero-Container .Col:nth-of-type(1) .Avatar img:nth-of-type(4) {
+  margin-left: -12px;
+}
+
+.Hero-Container .Col:nth-of-type(1) .Avatar img:nth-of-type(5) {
+  margin-left: -12px;
+}
+
+.Hero-Container .Col:nth-of-type(1) .Avatar .Star {
+  display: flex;
+}
+
+.Hero-Container .Col:nth-of-type(1) .Avatar .Star p {
+  color: var(--Gray-700, #344054);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 150% */
+  padding-left: 10px;
+}
+
+.Hero-Container .Col:nth-of-type(1) .Avatar .Reviews {
+  color: var(--Gray-600, #475467);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  margin-top: -20px;
+}
+
+.Hero-Container .Col:nth-of-type(1) .Buttons-Container button:nth-of-type(2) {
+  color: var(--Blue-700, #175cd3);
+  /* Text lg/Semibold */
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px; /* 155.556% */
+  background-color: transparent;
+  border-color: transparent;
+  display: flex;
+  align-items: center;
+  /* background-color: red; */
+  padding: 16px 28px;
+  gap: 10px;
+}
+
+.Hero-Container .Col:nth-of-type(2) {
+  display: flex;
+  /* align-items: center; */
+  justify-content: right;
+  padding: 0;
+}
+
+.Hero-Container .Col:nth-of-type(2) .Video-Conference-Image {
+  width: 100%;
+}

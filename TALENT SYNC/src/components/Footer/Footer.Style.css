@@ -1,0 +1,195 @@
+.Footer-Container {
+  width: 80%;
+  margin: 10px auto 30px;
+  display: grid;
+  grid-template-columns: 34% 10% 14% 14% 14% 14%;
+}
+
+.Footer-Container .About .Logo-Container {
+  flex-grow: 1;
+  display: flex;
+  gap: 10px;
+}
+
+.Footer-Container .About .Logo-Container .Logo {
+  max-width: 100%;
+  height: auto;
+}
+
+.Footer-Container .About .Logo-Container .Logo .Brandname {
+  color: var(--Gray-900, #101828);
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.Footer-Container .About .Logo-Container .Logo .Brandname span {
+  color: var(--Blue-dark-400, #528bff);
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.Footer-Container .About .Summary {
+  color: var(--Gray-600, #475467);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  margin-top: 50px;
+}
+
+.Footer-Container .Product {
+  width: 100%;
+  padding-left: 30px;
+}
+
+.Footer-Container .Product h6 {
+  margin-bottom: 10px;
+  color: var(--Gray-500, #667085);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+
+.Footer-Container .Product .Links {
+  display: block;
+  margin-bottom: 20px;
+  color: var(--Gray-600, #475467);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+  text-decoration: none;
+}
+
+.Footer-Container .Company {
+  width: 100%;
+  padding-left: 30px;
+}
+
+.Footer-Container .Company h6 {
+  margin-bottom: 10px;
+  color: var(--Gray-500, #667085);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+
+.Footer-Container .Company .Links {
+  display: block;
+  margin-bottom: 20px;
+  color: var(--Gray-600, #475467);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+  text-decoration: none;
+}
+
+.Footer-Container .Resources {
+  width: 100%;
+  padding-left: 30px;
+}
+
+.Footer-Container .Resources h6 {
+  margin-bottom: 10px;
+  color: var(--Gray-500, #667085);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+
+.Footer-Container .Resources .Links {
+  display: block;
+  margin-bottom: 20px;
+  color: var(--Gray-600, #475467);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+  text-decoration: none;
+}
+
+.Footer-Container .Legal {
+  width: 100%;
+  padding-left: 30px;
+}
+
+.Footer-Container .Legal h6 {
+  margin-bottom: 10px;
+  color: var(--Gray-500, #667085);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+
+.Footer-Container .Legal .Links {
+  display: block;
+  margin-bottom: 20px;
+  color: var(--Gray-600, #475467);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+  text-decoration: none;
+}
+
+.Footer-Container .Get-App {
+  width: 100%;
+  padding-left: 30px;
+}
+
+.Footer-Container .Get-App p {
+  color: var(--Blue-dark-700, #004eeb);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  margin-bottom: 15px;
+}
+
+.Footer-Container .Get-App h6 {
+  margin-bottom: 10px;
+  color: var(--Gray-500, #667085);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+
+.Footer-Container .Get-App .Links {
+  display: block;
+  margin-bottom: 20px;
+  color: var(--Gray-600, #475467);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+  text-decoration: none;
+}
